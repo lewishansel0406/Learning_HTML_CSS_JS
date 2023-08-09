@@ -1,6 +1,6 @@
 # Learning_HTML_CSS_JS
 The files in this repository are my practice files. 
-For the purpose of practice, I have also created this repository. 
+For the same purpose, I have also created this repository. 
 I have also referred various resources online, which I'll put up in detail sometime down the line, in this README file.
 Currently, I have referred some videos from the Free Code Camp YouTube playlist on Learning HTML, CSS and JavaScript.
 All images are sourced online. 
