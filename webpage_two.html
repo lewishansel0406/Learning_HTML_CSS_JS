@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +13,16 @@
         }
         body {
             color: cyan;
+            font-family: Calibri;
+            text-align: left;
+            padding: 20px;
+        }
+        header {
+            font-family: Times New Roman;
+            text-align: left;
+        }
+        form {
+            background-color: #000000
         }
         footer {
             font-size: 18px;
@@ -20,37 +31,125 @@
 </head>
 
 <body style="background-color: #000000">
-<p>
-<h4> Sample E-mail Log-in prompt: </h4>
-    <form action="input" method="get">
-    <label for="email">E-mail : </label>
     <p>
-    <input type="email" id="email" name="E-mail" pattern="+\.com" required>
-    </p>
-    <label for="password">Password : </label>
-    <p>
-    <input type="password" id="password" name="Password" minlength="8" required>
-    </p>
-    <p>
-    <input type="submit" value="Log In ">
-    </p>
-    </form>
-<hr>
-<br>
+        <header>
+            <h4>
+                Sample Log-in and form filling prompt:
+            </h4>
+        </header>
 
-<footer>
-<address>
-<p>
-<span>
-    <a href="webpage_one.html">Home</a>
-</span>
-<span>
-    <a href="webpage_three.html">End</a>
-</span>
-</p>
-</address>
-</footer>
-    
+    <form id="form" action="input" method="get">
+        <div>
+        <p>
+            <span>
+                <label for="email">
+                    E-mail :
+                </label>
+            </span>
+        </div>
+        <div>
+            <span>
+                <input type="email" id="email" name="E-mail" pattern="+\.com" placeholder="Enter you E-mail" required>
+            </span>
+        </div>
+
+
+        <div>
+        <p>
+            <span>
+                <label for="password">
+                    Password :
+                </label>
+            </span>
+        </div>
+        <div>
+            <span>
+                <input type="password" id="password" name="Password" minlength="8" placeholder="Enter you password" required>
+            </span>
+        </div>
+
+
+        <div>
+        <p>
+            <span>
+                <label for="name">
+                    Name :
+                </label>
+            </span>
+        </div>
+        <div>
+            <span>
+                <input type="text" id="name" placeholder="Enter your name">
+            </span>
+        </div>
+
+
+        <div>
+        <p>
+            <span>
+                <label for="Age">
+                    Age :
+                </label>
+            </span>
+        </div>
+        <div>
+            <span>
+                <input type="number" id="age" placeholder="Enter your age">
+            </span>
+        </div>
+
+
+        <div>
+        <p>
+            <span>
+                <label for="education">
+                    Highest Educational Qualification :
+                </label>
+            </span>
+        </div>
+        <div>
+            <span>
+                <select id="education" name="education">
+                    <option value="">Select                                     </option>
+                    <option value="Doctorate">Doctorate                         </option>
+                    <option value="Post Graduate">Post Graduate                 </option>
+                    <option value="Post Graduate Diploma">Post Graduate Diploma </option>
+                    <option value="Graduate">Graduate                           </option>
+                    <option value="Diploma">Diploma                             </option>
+                    <option value="High School">High School                     </option>
+                    <option value="High School Diploma">High School Diploma     </option>
+                </select>
+            </span>
+        </div>
+        <div>
+        <p>
+            <span>
+                <input type="submit" value="Log In ">
+            </span>
+        </div>
+
+    </form>
+    <br>
+    <hr>
+
+    <footer>
+    <p>
+        <address>
+        <div>
+            <span>
+                <a href="webpage_one.html">
+                    Home
+                </a>
+            </span>
+            <span>
+                <a href="webpage_three.html">
+                    End
+                </a>
+            </span>
+        </div>
+        </address>
+    </footer>
+
 </body>
 
 </html>
