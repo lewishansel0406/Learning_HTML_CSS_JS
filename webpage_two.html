@@ -18,7 +18,7 @@
             padding: 20px;
         }
         header {
-            font-family: Times New Roman;
+            font-family: Monospace;
             text-align: left;
         }
         form {
@@ -27,6 +27,18 @@
         footer {
             font-size: 18px;
         }
+        .button {
+        background-color: #111111;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
     </style>
 </head>
 
@@ -124,7 +136,7 @@
         <div>
         <p>
             <span>
-                <input type="submit" value="Log In ">
+                <input type="submit" value="Log In" onclick="window.location.href='webpage_three.html'">
             </span>
         </div>
 
@@ -137,12 +149,12 @@
         <address>
         <div>
             <span>
-                <a href="webpage_one.html">
+                <a href="webpage_one.html" class="button">
                     Home
                 </a>
             </span>
             <span>
-                <a href="webpage_three.html">
+                <a href="webpage_three.html" class="button">
                     End
                 </a>
             </span>
